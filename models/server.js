@@ -29,7 +29,7 @@ class Server {
 
     routes(){
 
-        this.APP.use('/api/prube', require('../routes/usuarios.routes') );
+        this.APP.use('/api/usuarios', require('../routes/usuarios.routes') );
 
         this.APP.get('*', (request, response) => {
             response.send('Hey prro');
