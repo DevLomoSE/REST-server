@@ -1,0 +1,17 @@
+{
+  "name": "08-rest_server",
+  "version": "1.0.0",
+  "description": "REST server from nodejs course",
+  "main": "index.js",
+  "scripts": {
+    "start": "node init.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@DevLomoSE",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  }
+}
